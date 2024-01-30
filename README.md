@@ -12,6 +12,7 @@ Here is what the data pipeline looks like in Apache Nifi:
 ![image](https://github.com/neongreen13/energy-prediction-apachenifi/assets/48419376/a845a0ae-eac0-4abf-992c-70fcad613bda)
 
 
+___________________________________________________________________________________________________________________________________________
 
 ## Apache Nifi Installation and Start Up
 1.
