@@ -9,6 +9,7 @@ The project takes historical weather data from OpeneatherMap API for the city of
 New data will be gathered via API in Apache Nifi and transformed for real-time predictions.
 
 Here is what the data pipeline looks like in Apache Nifi:
+![image](https://github.com/neongreen13/energy-prediction-apachenifi/assets/48419376/23742a85-ab01-4995-9b8b-5dedcdc3146d)
 
 
 ## Apache Nifi Installation and Start Up
