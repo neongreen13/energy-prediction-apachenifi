@@ -1,12 +1,12 @@
 # Apache Nifi Data Pipeline: Predicting A Building's Energy Consumption from Weather Data
 
-In a fast-moving world, the skill of creating a seamless data pipeline to ingest, process, and transfer data is essential. Building a solid pipeline is even more important for computational efficiency and the ease of integrating machine learning models into the pipeline. This exercise below sets up a data pipeline using Apache Nifi to collect real-time weather data, transform it for machine learning modeling, and transfer it to a location for a future downstream business purpose. 
+In a fast-moving world, the skill of creating a seamless data pipeline to ingest and transfer data is essential. Building a solid pipeline is even more important for computational efficiency and the ease of integrating machine learning models into the pipeline. This exercise below sets up a data pipeline using Apache Nifi to collect real-time weather data and transfer it to a location for a future downstream business purpose. 
 
-The project takes historical weather data from OpeneatherMap API for the city of Berkely, California, and combines it with the data from a single building’s energy consumption collected through sensors over a two eyar period between . There are two notebooks attached:
--	Exploratory data analysis on historical weather data for Berkeley and the building's energy consumption in the same time period.
--	Train a LSTM model on timeseries data with an inference run to predict the energy consumption based on new weather data (gathered from Apache Nifi)
+The project takes historical weather data from OpeneatherMap API for the city of Berkely, California, and combines it with the data from a single building’s energy consumption collected through sensors over a two eyar period between 2018 and 2020. There are two notebooks attached:
+-	Exploratory data analysis on historical weather data for Berkeley and the building's energy consumption in the two year period.
+-	Model Training: 1) Trained a Logistic Regression model for binary classification (high or low evergy consumption) using new weather data (gathered from Apache Nifi), and 2) Trained a LSTM model on timeseries data 
 
-New data will be gathered via API in Apache Nifi and transformed for real-time predictions.
+New data will be gathered via API in Apache Nifi and transformed for real-time predictions. 
 
 Here is what the data pipeline looks like in Apache Nifi:
 ![image](https://github.com/neongreen13/energy-prediction-apachenifi/assets/48419376/a845a0ae-eac0-4abf-992c-70fcad613bda)
